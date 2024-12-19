@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'column_raw.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -36,13 +36,13 @@ class FirstPage extends StatelessWidget {
               child: Container(
                 padding: EdgeInsets.all(16.0),
                 color: Colors.blue,
-                child: Text(
+                child: const Text(
                   'Перейти на вторую страницу',
                   style: TextStyle(color: Colors.white, fontSize: 18),
                 ),
               ),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             GestureDetector(
               onTap: () {
                 // Переход на другую страницу
@@ -54,7 +54,7 @@ class FirstPage extends StatelessWidget {
               child: Container(
                 padding: EdgeInsets.all(16.0),
                 color: Colors.green,
-                child: Text(
+                child: const Text(
                   'Еще один переход',
                   style: TextStyle(color: Colors.white, fontSize: 18),
                 ),
