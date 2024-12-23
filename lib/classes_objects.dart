@@ -59,7 +59,7 @@ class CarsCatalogPage extends StatelessWidget {
     ),
     Car(
       name: 'Li L9',
-      year: '2024',
+      year: '2024 г.',
       engineDetails: '1.5 л, бензин, КПП автомат',
       location: 'Алматы',
       imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Lixiang_L9_Sanming_01_2023-02-07.jpg',
